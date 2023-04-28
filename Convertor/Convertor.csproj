@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spire.Doc" Version="10.1.0" />
+    <PackageReference Include="Spire.Office" Version="8.4.0" />
+    <PackageReference Include="Spire.XLS" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bcmail-jdk15-1.44">
+      <HintPath>bin\Debug\bcmail-jdk15-1.44.dll</HintPath>
+    </Reference>
+    <Reference Include="bcprov-jdk15-1.44">
+      <HintPath>bin\Debug\bcprov-jdk15-1.44.dll</HintPath>
+    </Reference>
+    <Reference Include="fontbox-1.8.2">
+      <HintPath>bin\Debug\fontbox-1.8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="icu4j-3.8">
+      <HintPath>bin\Debug\icu4j-3.8.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+      <HintPath>bin\Debug\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+      <HintPath>bin\Debug\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API">
+      <HintPath>bin\Debug\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime">
+      <HintPath>bin\Debug\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI">
+      <HintPath>bin\Debug\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="pdfbox-1.8.2">
+      <HintPath>bin\Debug\pdfbox-1.8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Document.NET">
+      <HintPath>bin\Debug\Xceed.Document.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Words.NET">
+      <HintPath>bin\Debug\Xceed.Words.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

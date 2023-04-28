@@ -1,0 +1,23 @@
+﻿<Window x:Name="FileConvertor" x:Class="Convertor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Convertor"
+        mc:Ignorable="d"
+        Title="File convertor format" Height="451" Width="499" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="File name" HorizontalAlignment="Left" Margin="43,46,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="121,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="btn1" Content="Upload PDF" HorizontalAlignment="Left" Margin="398,50,0,0" VerticalAlignment="Top" Width="76" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="Convert to Word" HorizontalAlignment="Left" Margin="43,105,0,0" VerticalAlignment="Top" Width="106" Height="30" Click="btn2_Click"/>
+        <GroupBox Header="PDF to Word" Margin="0,0,0,250"/>
+        <Label Content="File name" HorizontalAlignment="Left" Margin="43,240,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Center" Margin="0,248,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="251" Height="18"/>
+        <Button x:Name="btn3" Content="Upload Excel" HorizontalAlignment="Left" Margin="398,247,0,0" VerticalAlignment="Top" Width="76" Click="btn3_Click"/>
+        <Button x:Name="btn4" Content="Convert to Word" HorizontalAlignment="Left" Margin="43,308,0,0" VerticalAlignment="Top" Height="30" Width="106" Click="btn4_Click"/>
+        <GroupBox Header="Excel to Word" Margin="0,205,0,39">
+        </GroupBox>
+
+    </Grid>
+</Window>
