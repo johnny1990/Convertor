@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Convertor"
         mc:Ignorable="d"
-        Title="File convertor format" Height="451" Width="499" WindowStartupLocation="CenterScreen">
+        Title="File convertor format" Height="658" Width="499" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="File name" HorizontalAlignment="Left" Margin="43,46,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="121,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
@@ -16,8 +16,11 @@
         <TextBox x:Name="txt2" HorizontalAlignment="Center" Margin="0,248,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="251" Height="18"/>
         <Button x:Name="btn3" Content="Upload Excel" HorizontalAlignment="Left" Margin="398,247,0,0" VerticalAlignment="Top" Width="76" Click="btn3_Click"/>
         <Button x:Name="btn4" Content="Convert to Word" HorizontalAlignment="Left" Margin="43,308,0,0" VerticalAlignment="Top" Height="30" Width="106" Click="btn4_Click"/>
-        <GroupBox Header="Excel to Word" Margin="0,205,0,39">
-        </GroupBox>
-
+        <GroupBox Header="Excel to Word" Margin="0,205,0,39"></GroupBox>
+        <Label Content = "File name" HorizontalAlignment="Left" Margin="43,439,0,0" VerticalAlignment="Top" Height="24"/>
+        <TextBox x:Name="txt3" HorizontalAlignment="Center" Margin="0,444,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="251" Height="19"/>
+        <Button x:Name="btn5" Content="Upload Image" HorizontalAlignment="Left" Margin="392,444,0,0" VerticalAlignment="Top" Width="82" Click="btn5_Click" Height="19"/>
+        <Button x:Name="btn6" Content="Convert to Word" HorizontalAlignment="Left" Margin="43,490,0,0" VerticalAlignment="Top" Height="30" Width="106" Click="btn6_Click"/>
+        <GroupBox Header="JPG to Word" Margin="0,392,0,39"></GroupBox>
     </Grid>
 </Window>

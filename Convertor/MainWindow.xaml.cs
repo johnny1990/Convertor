@@ -30,6 +30,8 @@ using Spire.Doc;
 using Spire.Doc.Documents;
 using Spire.Doc.Fields;
 using Document = Spire.Doc.Document;
+using javax.xml.parsers;
+using Aspose.Words;
 
 namespace Convertor
 {
@@ -133,8 +135,37 @@ namespace Convertor
             p.Start();
 
             txt2.Text = "";
+        }           
+
+        private void btn5_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDlg = new OpenFileDialog() { Filter = "JPG files |*.jpg" };
+
+            Nullable<bool> result = openFileDlg.ShowDialog();
+
+            if (result == true)
+            {
+                txt3.Text = openFileDlg.FileName;
+            }
         }
 
+        private void btn6_Click(object sender, RoutedEventArgs e)
+        {
+            var doc = new Aspose.Words.Document();
+            var builder = new Aspose.Words.DocumentBuilder(doc);
+
+            builder.InsertImage(txt3.Text);
+            doc.Save((txt3.Text) + ".docx");
+
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo((txt3.Text) + ".docx".ToString())
+            {
+                UseShellExecute = true
+            };
+            p.Start();
+
+            txt3.Text = "";
+        }
 
         private static void MergeCells(Worksheet sheet, Spire.Doc.Table table)
         {

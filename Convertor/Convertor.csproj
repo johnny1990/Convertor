@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspose.Words" Version="23.11.0" />
     <PackageReference Include="Spire.Doc" Version="10.1.0" />
     <PackageReference Include="Spire.Office" Version="8.4.0" />
     <PackageReference Include="Spire.XLS" Version="10.1.1" />
